@@ -1,10 +1,12 @@
 nav{
     background-color: white;
+    padding-top: 10px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
+    margin-bottom: 0;
 }
 
 .logo{
