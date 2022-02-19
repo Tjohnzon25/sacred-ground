@@ -27,7 +27,7 @@ function Home(){
 
                     <div className='content--container white-background'>
                         <img src="images/truck.png" alt="Clean dirt example" id="truckPic1"/>
-                        <h2>Why Choose Us?</h2>
+                        <h2>Fast Delivery!</h2>
                         <p>Dirt is <b>FREE</b> in many cases depending on the load.</p>
                     </div>
 
@@ -41,12 +41,20 @@ function Home(){
             </div>
 
             <div className='projects-wrapper'>
-                <section className='projects'>
-                    <h1>Past Project Examples</h1>
+                <h1>Project Examples</h1>
 
+                <section className='projects'>
                     <div className='dirk-bike project-flex'>
                         <h3>Content about the dirt bike track</h3>
                         <img src="images/dirt-bike-track.JPG" alt="Dirt bike track project" />
+                    </div>
+
+                </section>
+
+                <section className='projects'>
+                    <div className='dirk-bike project-flex'>
+                        <h3>Content about the dirt bike track</h3>
+                        <img src="images/dirt-in-pool.JPG" alt="Dirt pool project" />
                     </div>
 
                 </section>

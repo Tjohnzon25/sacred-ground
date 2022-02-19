@@ -1,6 +1,5 @@
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
-import Rates from "./components/Rates";
 import Contact from "./components/Contact";
 import About from "./components/About";
 
@@ -15,7 +14,6 @@ function App() {
       <Router>
             <Routes>
                 <Route exact path="/" element={<Home/>}></Route>
-                <Route exact path="/rates" element={<Rates/>}></Route>
                 <Route exact path="/about-us" element={<About/>}></Route>
                 <Route exact path="/contact-us" element={<Contact/>}></Route>
             </Routes>
